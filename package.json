@@ -1,0 +1,35 @@
+{
+  "name": "jestpro-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "nocache": "jest --no-cache",
+    "test": "jest --watchAll",
+    "coverage": "jest --coverage", 
+    "verbose": "npx jest --verbose" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-react": "^7.16.0",
+    "@babel/preset-typescript": "^7.16.0",
+    "@testing-library/jest-dom": "^5.15.0",
+    "@testing-library/react": "^12.1.2",
+    "@types/jest": "^27.0.2",
+    "@types/react": "^17.0.34",
+    "@types/react-dom": "^17.0.11",
+    "babel-jest": "^27.3.1",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^27.3.1",
+    "prettier": "^2.4.1"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
