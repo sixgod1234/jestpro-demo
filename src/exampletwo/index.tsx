@@ -27,6 +27,7 @@ function Search({ value, onChange, children }) {
         type="text"
         value={value}
         onChange={onChange}
+        placeholder='test'
       />
     </div>
   );
